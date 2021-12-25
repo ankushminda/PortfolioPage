@@ -4,7 +4,7 @@ Portfolio template can be used to display your project work. This template is pu
 
 <h2>Screenshot</h2>
 
-![Screen Shot 2021-12-04 at 00 42 05](https://user-images.githubusercontent.com/26448060/144659933-cd63a1a5-87d1-466e-bfc3-9b0614068849.png)
+![image](https://user-images.githubusercontent.com/26448060/147393478-0eb9bd39-11bf-4669-b499-889c6784634d.png)
 
 If you like the template, please do like and show your support by buying me a coffee <a href="https://www.buymeacoffee.com/ankushminda" target="_blank">here</a>
 
