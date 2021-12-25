@@ -49,10 +49,10 @@ a {
 }
 
 .bottom_nav {
-  background: #FFFFFF;
+  background: #d84c4c;
   text-align: center;
   padding: .5%;
-  color: #333;
+  color: #ffffff;
   font-size: 1.2em;
 }
 
@@ -132,7 +132,7 @@ footer {
 }
 
 footer p {
-  margin: auto 2.5%;
+  margin: auto;
   font-size: 1.5em;
   padding: 0.5%;
   text-align: center;
