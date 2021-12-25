@@ -57,7 +57,7 @@ a {
 
 header {
   font-family: 'Comforter';
-  background: #ffb142;
+  background: #f05454;
   color: #FFFFFF;
   text-align: center;
   font-size: 4.75em;
@@ -74,7 +74,7 @@ header h1:hover {
 
 .sub_header {
   padding: .5%;
-  background: #cc8e35;
+  background: #d84c4c;
   color: #FFFFFF;
   text-align: center;
   font-size: 1.75em;
