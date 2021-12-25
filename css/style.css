@@ -49,6 +49,14 @@ a {
   font-size: 1.2em;
 }
 
+.bottom_nav {
+  background: #FFFFFF;
+  text-align: center;
+  padding: .5%;
+  color: #333;
+  font-size: 1.2em;
+}
+
 .border_box {
   border: 1px solid #333;
   padding: .25% 1%;
@@ -128,6 +136,7 @@ footer p {
   margin: auto 2.5%;
   font-size: 1.5em;
   padding: 0.5%;
+  text-align: center;
 }
 
 @media only screen and (max-width: 900px) {
