@@ -1,107 +1,78 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <meta name="author" content="Ankush Minda"/>
-    <meta name="description" content="One Page Portfolio Template"/>
-    <meta name="keywords" content="Portfolio, One Page Template, HTML Template, My Work"/>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/9968893890.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
-        <div class="navbar-container">
-          <a class="navbar-title" href="#home">Portfolio</a>
-          <input type="checkbox" id="navbar-toggle" class="navbar-toggle-checkbox">
-          <label for="navbar-toggle" class="navbar-toggle-label">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-          <ul class="navbar-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
 
-    <section id="home">
-      <h2>Welcome to My Portfolio</h2>
-      <p>Check out my latest projects and feel free to get in touch with me.</p>
-    </section>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <meta name="author" content="Ankush Minda" />
+  <meta name="description" content="One Page Portfolio Template" />
+  <meta name="keywords" content="Portfolio, One Page Template, HTML Template, My Work" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/9968893890.js" crossorigin="anonymous"></script>
+</head>
 
-    <section id="projects">
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#" class="navbar-title">My Portfolio</a>
+        <ul class="navbar-menu">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
       <div class="card-container">
-        <div class="card">
-          <img src="https://source.unsplash.com/category/nature/400x300" alt="Project 1">
-          <h3>Project 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero.</p>
+        <!-- Project cards go here -->
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam orci sed risus feugiat, vitae scelerisque magna ultricies. Nulla facilisi. Fusce tristique mi nec mi interdum, et tincidunt justo luctus. Vestibulum non efficitur ligula. Duis sit amet neque varius, efficitur eros vel, tincidunt lectus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed tortor pharetra, tristique nisi a, scelerisque risus. Sed eget erat non felis lacinia pharetra id nec elit. Suspendisse potenti. Praesent ut ex at lacus condimentum faucibus vitae in est.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you have any questions or inquiries, feel free to get in touch with me.</p>
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>123 Main Street, City, Country</p>
         </div>
-        <div class="card">
-          <img src="https://source.unsplash.com/category/business/400x300" alt="Project 2">
-          <h3>Project 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero.</p>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <p>info@example.com</p>
         </div>
-        <div class="card">
-          <img src="https://source.unsplash.com/category/technology/400x300" alt="Project 3">
-          <h3>Project 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero.</p>
-        </div>
-        <div class="card">
-          <img src="https://source.unsplash.com/category/food/400x300" alt="Project 4">
-          <h3>Project 4</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero.</p>
-        </div>
-        <div class="card">
-          <img src="https://source.unsplash.com/category/animals/400x300" alt="Project 5">
-          <h3>Project 5</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero.</p>
-        </div>
-        <div class="card">
-          <img src="https://source.unsplash.com/category/architecture/400x300" alt="Project 6">
-          <h3>Project 6</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero.</p>
-        </div>
-        <div class="card">
-          <img src="https://source.unsplash.com/category/nature/400x300" alt="Project 7">
-          <h3>Project 7</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero.</p>
-        </div>
-        <div class="card">
-          <img src="https://source.unsplash.com/category/business/400x300" alt="Project 8">
-          <h3>Project 8</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero.</p>
-        </div>
-        <div class="card">
-          <img src="https://source.unsplash.com/category/technology/400x300" alt="Project 9">
-          <h3>Project 9</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero.</p>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <p>+1 234 567 890</p>
         </div>
       </div>
-    </section>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-0.000000!3d0.000000!4m5!6m4!1sABCDEF1234567890!2sMy%20Location!3m2!1d0!2d0!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.</p>
-    </section>
+  <footer class="footer">
+    <p>&copy; 2021 My Portfolio. All rights reserved.</p>
+  </footer>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Feel free to reach out to me if you have any questions or would like to collaborate.</p>
-      <a href="mailto:yourname@example.com" class="contact-button">Contact</a>
-    </section>
+  <script src="js/script.js"></script>
+</body>
 
-    <footer class="footer">
-      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
-      <p>Made with <i class="fas fa-heart"></i> by: Ankush Minda</p>
-    </footer>
-
-    <script src="js/script.js"></script>
-  </body>
 </html>
