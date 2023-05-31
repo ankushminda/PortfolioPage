@@ -11,6 +11,7 @@
 
 body {
   font-family: 'Ubuntu', sans-serif;
+  scroll-behavior: smooth; /* Add smooth scrolling */
 }
 
 .container {
@@ -22,6 +23,10 @@ body {
 .navbar {
   background-color: #333333;
   color: #ffffff;
+  position: fixed; /* Make the navbar fixed on top */
+  top: 0;
+  width: 100%;
+  z-index: 999; /* Ensure the navbar appears above other elements */
 }
 
 .navbar-container {
